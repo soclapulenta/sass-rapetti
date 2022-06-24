@@ -1,0 +1,19 @@
+.footer{
+    background-color: grey;
+    ul{
+        display: flex;
+        flex-direction: row;
+        margin: 4rem;
+        justify-content: space-between;
+        align-items: baseline;
+        li{
+            list-style: none;
+            justify-content: end;
+            font-size: 1rem;
+            &:hover{
+                background-color: antiquewhite;
+            }
+        }
+    }
+
+}
